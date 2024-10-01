@@ -1,0 +1,34 @@
+dia 26.59
+al 1
+bp 1
+PF 0
+
+phase
+fun pas 45
+
+phase
+fun lps
+
+phase
+fun pas 50
+
+phase
+fun lop 17
+
+phase
+fun lps
+
+phase
+fun rat
+rat 21 mm
+vol 50
+dir wdr
+
+phase
+fun rat
+rat 21 mm
+vol 50
+dir inf
+
+phase
+fun lop 3
