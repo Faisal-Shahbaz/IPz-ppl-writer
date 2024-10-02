@@ -4,25 +4,22 @@ bp 1
 PF 0
 
 phase
-fun pas 45
-
-phase
-fun lps
-
-phase
-fun pas 50
-
-phase
-fun lop 17
-
-phase
-fun lps
-
-phase
 fun rat
 rat 21 mm
 vol 50
 dir wdr
+
+phase
+fun lps
+
+phase
+fun pas 16
+
+phase
+fun lop 47
+
+phase
+fun lps
 
 phase
 fun rat
@@ -31,4 +28,19 @@ vol 50
 dir inf
 
 phase
-fun lop 3
+fun rat
+rat 21 mm
+vol 50
+dir wdr
+
+phase
+fun lop 2
+
+phase
+fun rat
+rat 21 mm
+vol 50
+dir inf
+
+phase
+fun stp
