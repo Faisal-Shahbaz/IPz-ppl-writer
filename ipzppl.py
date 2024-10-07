@@ -82,7 +82,6 @@ class masterppl:
     Find example file by Tim on SyringPumpPro manual
     All code is original, by me
     """
-
     def __init__(self, file, adrs=[]):
         self.file = file
         self.adrs = adrs

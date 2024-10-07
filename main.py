@@ -1,4 +1,3 @@
-
 from ipzppl import *
 f_aq = open("aq.ppl", "w")
 f_org = open("org.ppl", "w")
@@ -15,12 +14,12 @@ master.quickset({0:org,1:aq,2:wash})
 pump.init(aq,wash,org)
 aq.rat(22, 20, "wdr") 
 org.rat(22, 20, "wdr") 
+wash.rat(21,50,'wdr')
 aq.rat(10, 20, "inf") 
 aq.pas(5 * 60)
 pump.sync(aq, org)
 org.rat(10, 20, "inf") 
 org.pas(5 * 60)
-wash.rat(21,50,'wdr')
 pump.sync(org,wash)
 wash.loopstart(2)
 wash.rat(21, 50, "inf")
