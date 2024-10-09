@@ -25,13 +25,37 @@ vol 20
 dir inf
 
 phase
-fun lps
-
-phase
 fun pas 60
 
 phase
-fun lop 5
+fun rat
+rat 2 mm
+vol 50
+dir wdr
+
+phase
+fun lps
+
+phase
+fun rat
+rat 22 mm
+vol 50
+dir inf
+
+phase
+fun rat
+rat 2 mm
+vol 50
+dir wdr
+
+phase
+fun lop 2
+
+phase
+fun rat
+rat 22 mm
+vol 50
+dir inf
 
 phase
 fun stp

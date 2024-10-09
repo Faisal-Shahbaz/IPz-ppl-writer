@@ -25,4 +25,49 @@ phase
 fun lop 5
 
 phase
+fun pas 99
+
+phase
+fun pas 81
+
+phase
+fun rat
+rat 22 mm
+vol 50
+dir wdr
+
+phase
+fun lps
+
+phase
+fun pas 44
+
+phase
+fun lop 31
+
+phase
+fun lps
+
+phase
+fun rat
+rat 22 mm
+vol 50
+dir inf
+
+phase
+fun rat
+rat 22 mm
+vol 50
+dir wdr
+
+phase
+fun lop 2
+
+phase
+fun rat
+rat 22 mm
+vol 50
+dir inf
+
+phase
 fun stp
