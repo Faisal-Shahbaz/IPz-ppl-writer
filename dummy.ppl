@@ -1,31 +1,16 @@
-dia 26.59
+dia 26.6
 al 1
 bp 1
 PF 0
 
-phase
+phase 
+fun pas 1
+
+phase 
 fun lps
 
-phase
-fun pas 25
-
-phase
-fun lop 19
-
-phase
-fun lps
-
-phase
+phase 
 fun pas 60
 
 phase
 fun lop 5
-
-phase
-fun lps
-
-phase
-fun pas 60
-
-phase
-fun lop 23

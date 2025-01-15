@@ -1,60 +1,48 @@
-dia 26.59
+dia 26.6
 al 1
 bp 1
 PF 0
 
-phase
+phase 
 fun rat
 rat 22 mm
 vol 20
 dir wdr
 
-phase
+phase 
 fun rat
 rat 10 mm
 vol 20
 dir inf
 
-phase
-fun lps
+phase 
+fun pas 61
 
-phase
-fun pas 60
-
-phase
-fun lop 5
-
-phase
-fun pas 99
-
-phase
-fun pas 81
-
-phase
+phase 
 fun rat
 rat 22 mm
 vol 50
 dir wdr
 
-phase
+phase 
+fun pas 99
+
+phase 
+fun pas 99
+
+phase 
+fun pas 42
+
+phase 
 fun lps
 
-phase
-fun pas 44
-
-phase
-fun lop 31
-
-phase
-fun lps
-
-phase
+phase 
 fun rat
 rat 22 mm
 vol 50
 dir inf
 
-phase
+phase 
 fun rat
 rat 22 mm
 vol 50
@@ -63,11 +51,11 @@ dir wdr
 phase
 fun lop 2
 
-phase
+phase 
 fun rat
 rat 22 mm
 vol 50
 dir inf
 
-phase
+phase 
 fun stp
