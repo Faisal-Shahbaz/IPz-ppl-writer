@@ -1,4 +1,5 @@
 dia 26.6
+vol mL
 al 1
 bp 1
 PF 0
@@ -10,7 +11,16 @@ vol 20
 dir wdr
 
 phase 
-fun pas 1
+fun lps
+
+phase 
+fun pas 80
+
+phase
+fun lop 5
+
+phase 
+fun pas 10
 
 phase 
 fun rat
@@ -38,6 +48,9 @@ fun rat
 rat 22 mm
 vol 50
 dir inf
+
+phase
+fun lop 3
 
 phase 
 fun stp
