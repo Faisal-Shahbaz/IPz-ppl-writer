@@ -11,10 +11,19 @@ vol 20
 dir wdr
 
 phase 
+fun bep
+
+phase 
 fun rat
-rat 3 mm
+rat 10 mm
 vol 20
 dir inf
+
+phase 
+fun rat
+rat 1 mm
+vol 1
+dir wdr
 
 phase 
 fun bep
@@ -26,7 +35,7 @@ phase
 fun pas 10
 
 phase
-fun lop 47
+fun lop 41
 
 phase 
 fun lps
